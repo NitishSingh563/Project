@@ -1,19 +1,40 @@
-body {
-     background-color: #212121;
-     color: #fff;
+html {
+     margin: 0;
+   }
+   
+span {
+     display: block;
+   }
+.canvas {
+     margin: 100px auto 100px;
+     width: 80%;
+     text-align: center;
 }
-.center {
-     display: flex;
-     height: 100vh;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
+   
+.button {
+     width: 100px;
+     height: 100px;
+     border: solid black 2px;
+     display: inline-block;
+   }
+   
+#red {
+     background: red;
 }
-
-#clock {
-     font-size: 40px;
-     background-color: orange;
-     padding: 20px 50px;
-     margin-top: 10px;
-     border-radius: 10px;
+   
+#Green {
+     background: Green;
 }
+#Orange {
+     background: Orange;
+}
+#Yellow {
+     background: yellow;
+}
+#Purple {
+     background: Purple;
+}
+#Brown {
+     background: Brown;
+}
+   
