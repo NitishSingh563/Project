@@ -1,25 +1,17 @@
-const buttons = document.querySelectorAll ('.button');
-const body = document.querySelector("body");
-
-buttons.forEach(function(button) {
-     button.addEventListener('click', function(e){
-          if (e.target.id === 'red') {
-            body.style.backgroundColor = e.target.id;   
-          }
-          if (e.target.id === 'Green') {
-            body.style.backgroundColor = e.target.id;   
-          }
-          if (e.target.id === 'Orange') {
-            body.style.backgroundColor = e.target.id;   
-          }
-          if (e.target.id === 'Yellow') {
-            body.style.backgroundColor = e.target.id;   
-          }
-          if (e.target.id === 'Purple') {
-            body.style.backgroundColor = e.target.id;   
-          }
-          if (e.target.id === 'Brown') {
-            body.style.backgroundColor = e.target.id;   
-          }
-     });
-});
+function Solve(val) {
+    var v = document.getElementById('res');
+    v.value += val;
+ }
+ function Result() {
+    var num1 = document.getElementById('res').value;
+    var num2 = eval(num1);
+    document.getElementById('res').value = num2;
+ }
+ function Clear() {
+    var inp = document.getElementById('res');
+    inp.value = '';
+ }
+ function Back() {
+    var ev = document.getElementById('res');
+    ev.value = ev.value.slice(0,-1);
+ }
