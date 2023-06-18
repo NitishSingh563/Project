@@ -1,0 +1,38 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+     background-color: rgb(170, 158, 193);
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.container{
+     border: 2px solid #000;
+     height: 280px;
+     width: 300px;
+     
+}
+
+button{
+     padding: 10px 5px;
+     margin-left: 40%;
+     margin-top: 20px;
+     border-radius: 5px;
+     font-weight: 700;
+}
+
+#results{
+     font-weight: 900;
+     font-size: 25px;
+     color: #fd0101;
+     margin-left: 70px;
+     margin-top: 20px;
+}
